@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/task" android:title="View Tasks"></item>
+    <item android:id="@+id/add_task" android:title="Add task"></item>
+    <item android:id="@+id/repository" android:title="Repositories"></item>
+    <item android:id="@+id/teammates" android:title="Teammates"></item>
+    <item android:id="@+id/invite_member" android:title="Invite a member"></item>
+    <item android:id="@+id/delete_team" android:title="Delete Team"></item>
+
+</menu>

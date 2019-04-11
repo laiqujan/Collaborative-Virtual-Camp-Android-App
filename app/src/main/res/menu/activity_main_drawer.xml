@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_team"
+            android:icon="@drawable/team_vector"
+            android:title="My Teams" />
+        <item
+            android:id="@+id/joined_teams"
+            android:icon="@drawable/joined_teams"
+            android:title="Joined Teams" />
+        <item
+            android:id="@+id/create_team"
+            android:icon="@drawable/create_team"
+            android:title="Create Team" />
+        <item
+            android:id="@+id/my_account"
+            android:icon="@drawable/ic_menu_myaccount"
+            android:title="My Account" />
+
+    </group>
+
+    <item android:title="My Account">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout_vector"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>
